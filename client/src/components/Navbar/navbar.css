@@ -1,0 +1,30 @@
+.navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  height: 70px;
+  background-color: #000;
+}
+
+.logo {
+  color: white;
+  font: size 18px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.active {
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+}
